@@ -1,0 +1,70 @@
+﻿@page
+@model TESTPROJECT_PRACTICE1V2.DinosaursModel
+@{
+
+    var ListDinosaurs = new List<string>(); 
+    
+    ListDinosaurs.Add("Arqueopterix");
+    ListDinosaurs.Add("Ornitomimo");
+    ListDinosaurs.Add("Velociraptor");
+    ListDinosaurs.Add("Gallimimo");
+    ListDinosaurs.Add("Alosaurio");
+    ListDinosaurs.Add("Diplodocus");
+    ListDinosaurs.Add("Amargasaurio");
+    ListDinosaurs.Add("Tiranosaurio");
+    ListDinosaurs.Add("Mamenquisaurio");
+    ListDinosaurs.Add("Braquiosaurio");
+    ListDinosaurs.Add("Triceratops");
+    ListDinosaurs.Add("Maiasauria");
+    ListDinosaurs.Add("Paquicefalosaurio");
+    ListDinosaurs.Add("Tuojiangosaurio");
+    ListDinosaurs.Add("Protoceratops");
+    ListDinosaurs.Add("Estiracosaurio");
+
+    @* var everything = " ";
+    foreach (var dino in ListDinosaurs)
+    {
+        everything += dino + " ";
+    } *@
+
+} <!-- EJECUCIÓN DENTRO DE UN BLOQUE DE CÓDIGOS -->
+
+
+<h1>Dinosaurs</h1>
+
+<ol>
+    @foreach (var dino in ListDinosaurs)
+    {
+        <li>@dino</li>
+    }
+</ol>
+
+
+<h3>Contacto</h3>
+<h4>rodrigomfoggia84@@gmail.com</h4>
+
+<!-- EJECUCIÓN LITERALMENTE DENTRO DE UN HTML -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="robot.png">
+    <title>Images</title>
+    <style>
+        body {
+            height: 100vh;
+            background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg");
+            color:white;
+            padding: 25px;
+            background-position: center;
+            background-size: cover;
+            background-position: fixed;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h3></h3>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    var mensaje = "Welcome to Jurassik Park";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>@mensaje</p>
+</div>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="robot.png">
+    <title>Images</title>
+    <style>
+        body {
+            height: 100vh;
+            background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg");
+            color:white;
+            padding: 25px;
+            background-position: center;
+            background-size: cover;
+            background-position: fixed;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h3>This web page has Background</h3>
+</body>
+</html>
